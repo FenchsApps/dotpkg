@@ -3,7 +3,7 @@
     "tux-print": {
       "repo": "https://github.com/FenchsApps/tux-printer.git",
       "build_command": "dotnet publish -c Release -r linux-x64 --self-contained",
-      "bin_path": "bin/Release/net7.0/linux-x64/publish/TuxPrinter",
+      "bin_path": "bin/Release/net6.0/linux-x64/publish/TuxPrinter",
       "symlink": "tux-print"
     }
   }
