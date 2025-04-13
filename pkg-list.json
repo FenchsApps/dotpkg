@@ -5,6 +5,12 @@
       "build_command": "dotnet publish -c Release -r linux-x64 --self-contained",
       "bin_path": "bin/Release/net6.0/linux-x64/publish/TuxPrinter",
       "symlink": "tux-print"
+    },
+    "tmp-killer": {
+      "repo": "https://github.com/FenchsApps/tmp-killer.git",
+      "build_command": "dotnet publish -c Release -r linux-x64 --self-contained",
+      "bin_path": "bin/Release/net9.0/linux-x64/publish/TMPKiller",
+      "symlink": "tmpkiller"
     }
   }
 }
